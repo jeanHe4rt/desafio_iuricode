@@ -1,0 +1,16 @@
+:root {
+  --background-body:#F3F5F7;
+  --primary: #FFFFFF;
+  --secundary: #313131;
+  --terciary: #B6B6B6;
+  /* font-family: ubuntu; */
+  width:100vw;
+  height:100vg;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size:62.5%;
+  word-break: initial;
+}
+body {
+  background: var(--background-body);
+}
+

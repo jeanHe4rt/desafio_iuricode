@@ -1,0 +1,135 @@
+@import'./root.css';
+
+
+.header {
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  font-size: 2.4rem;
+  height: 250px;
+}
+
+.header .top-header {
+  width:90%;
+  max-width: 900px;
+  margin: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+
+.title,.sub-title {
+  color: var(--primary);
+  margin-top: 41px;
+  font-size: 2.4rem;
+}
+.search-blog {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  margin-top: 73px;
+}
+
+#binoculo {
+  position: absolute;
+  display:flex;
+  width: 24px;
+  height:24px;
+  padding: 20px;
+}
+
+.search-blog #search {
+  width: 90%;
+  max-width:900px;
+  height: 65px;
+  border:none;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.2);
+  padding-left: 64px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.search-blog #search::-webkit-input-placeholder {
+  color: var(--primary);
+}
+
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 60%;
+  }
+
+  #binoculo {
+    position: absolute;
+    display:flex;
+    width: 15px;
+    height:15px;
+    padding: 20px;
+  }
+
+.search-blog #search {
+  font-size:1.4rem;
+  height: auto;
+  width:90%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  html {
+    font-size: 50%;
+  }
+
+  .search-blog #search {
+    font-size:1.4rem;
+    height: auto;
+    width:90%;
+    }
+
+    #binoculo {
+      position: absolute;
+      display:flex;
+      width: 15px;
+      height:15px;
+      padding: 20px;
+    }
+  
+}
+
+@media (max-width: 320px) {
+
+  .title, .sub-title{
+    font-size:50%;
+  }
+  .header{
+    height:20vh;
+  }
+  .search-blog {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,112 @@
+@import './root.css';
+
+.body {
+  width:90%;
+  max-width: 90.0rem;
+  margin: 0 auto;
+  padding-top:10rem;
+}
+
+.post {
+  background:var(--primary);
+  width: 90%;
+  max-width: 900px;
+  height:auto;
+  border-radius: 5px;
+  padding-left:1.5625rem;
+  padding-right:1.5625rem;
+  margin-bottom: 3.125rem;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+}
+
+.post .header-post {
+  display:flex;
+  justify-content: space-between;
+  padding-top:1.4375rem;
+  padding-bottom: .6875rem;
+}
+
+.post .header-post .date-post {
+  color: var(--terciary);
+  width: 10.9rem;
+  font-size:1.6rem;
+}
+
+.post .header-post + img {
+  width:1.3125rem;
+  height:1.3125rem;
+}
+.post .title-post {
+  color: var(--secundary);
+  font-size: 2.6rem;
+  padding-top: .6875rem;
+  padding-bottom: .8rem;
+}
+.post .description {
+  width: 100%;
+  color: var(--terciary);
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+@media (max-width: 414px) {
+
+  .body {
+    max-width: 23.375rem;
+    margin: 0 auto;
+    padding-top:3.125rem;
+  }
+
+  .post {
+    height: auto;
+  }
+
+  .post .header-post {
+    display:flex;
+    justify-content: space-between;
+    padding-top:.875rem;
+    padding-bottom: .9375rem;
+  }
+  .post .header-post .date-post {
+    color: var(--terciary);
+    width: 6.8125rem;
+    font-size:.875rem;
+  }
+
+  .post .header-post #heart {
+    width: 15px;
+    height: auto;
+  }
+
+  .post .title-post {
+    color: var(--secundary);
+    font-size: 1.125rem;
+    padding-top: 10px;
+    padding-bottom: .5rem;
+  }
+  .post .description {
+    width: 21.5625rem;
+    color: var(--terciary);
+    font-size:.875rem;
+    line-height:1.625rem;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .post {
+    width:90%;
+  }
+}
+
+
+@media (max-width: 320px) {
+  
+  .body{
+    margin: 20px;
+  }
+
+  .post {
+    width:100%;
+  }
+}
