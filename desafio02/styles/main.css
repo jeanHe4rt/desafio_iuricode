@@ -1,0 +1,31 @@
+.main-header {
+  width: 100%;
+  text-align: center;
+}
+
+.main-header .title-1 {
+  margin-top: 58px;
+  color: var(--main-font-color);
+  font-weight: 600;
+  line-height: 6.2rem;
+}
+
+.main-header .description {
+  color: var(--third-font-color);
+  font-weight: 500;
+}
+
+.table-product {
+  text-align: center;
+  }
+
+.table-shoots {
+  width: 60%;
+  display: inline-block;
+}
+
+.table-shoots .shoots-field {
+  display: inline-block; /* centraliza na horizontal */
+  margin: 40px 5px;
+  background: var(--third-bg-color);
+}
