@@ -2,6 +2,9 @@
   width:100vw;
   word-break: initial;
   font-size: 62.5%;
-  
+  --main-bg-color: #181818;
+  --second-bg-color:#F6F6F6;
+  --main--font-color: #181818;
+  --second-font-color: #F6F6F6;
 }
 
