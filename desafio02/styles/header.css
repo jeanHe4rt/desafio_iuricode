@@ -1,0 +1,93 @@
+@import ("./root.css");
+.header-top {
+  widht: 100%;
+  height: 120px;
+}
+
+.header-top .content-first {
+  height: 60px;
+  background-color: var(--main-bg-color);
+}
+
+.header-top .content-first p {
+  widht: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--second-font-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 3.1rem;
+}
+
+.header-top .content-second {
+  widht: 100%;
+  height: 60px;
+  background-color: var(--second-bg-color);
+}
+
+.header-top .content-second .title-2 {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-font-color);
+}
+
+.menu {
+  widht: 100vw;
+  height: 378px;
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("../assets/bg-image.png");
+  background-size: 100% 100% ;
+  background-color: var(--main-bg-color);
+  
+}
+
+.menu .show-text {
+  max-width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.menu .show-text .title-1 {
+  color: var(--second-font-color);
+  font-weight:700;
+}
+
+.menu .show-text .product{
+  width: 430px;
+  color: var(--second-font-color);
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+@media ( max-width: 542px) {
+  .menu {
+    widht: 100vw;
+    height: 378px;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/bg-image-mobile.png");
+    background-size: 100% 100% ;
+    background-color: var(--main-bg-color);
+  }
+.menu .show-text {
+  margin-left: 50px;
+}
+  .menu .show-text .product{
+    width: 228px;
+    font-size: 1.6rem;
+  }
+}
