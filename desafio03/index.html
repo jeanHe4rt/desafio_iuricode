@@ -2,73 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ONE PAGE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+    <title>ONE PAGE</title>
 </head>
 
 <body>
-  <header>
-    <div class="container-header">
-      <h1>Lorem ipsum dolor sit amet</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</p>
-      <button>Botão</button>
+    <div class="container">
+        <header>
+            <div class="container-header">
+                <h1 class="title-header">Lorem ipsum dolor sit amet</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</p>
+                <button class="button">Botão</button>
+            </div>
+            <img src="assests/image-header.svg" alt="Imagem de presente">
+        </header>
     </div>
-    <img src="assests/image-header.svg" alt="Imagem de presente">
-  </header>
 
-  <main class="container-card">
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-    <div class="card">
-      <img src="" alt="">
-        <h1 class="header-1">Título do card</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
-    </div>
-  </main>
+    <main class="container-card">
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h1 class="header-1">Título do card</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+        </div>
+    </main>
 
-  <footer>
-    <h1>Entre em contato</h1>
-    <form action="#">
-      <label for="name" class="sr-only">Nome</label>
-      <input type="text" name="Nome" id="name"placeholder="Nome: nome do contato.">
+    <footer>
+        <h1>Entre em contato</h1>
+        <form action="#">
+            <label for="name" class="sr-only">Nome</label>
+            <input type="text" name="Nome" id="name" placeholder="Nome: nome do contato.">
 
-      <label for="email" class="sr-only">E-mail</label>
-      <input type="email" name="email" id="email"placeholder="E-mail: nome@provedor.com">
+            <label for="email" class="sr-only">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail: nome@provedor.com">
 
-      <label for="phone" class="sr-only">Phone</label>
-      <input type="tel" name="phone" id="phone" placeholder="Telefone: (51) 9-9999-9999"> 
+            <label for="phone" class="sr-only">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Telefone: (51) 9-9999-9999">
 
-      <label for="message">Mensagem</label>
-      <textarea name="messge" id="message" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+            <label for="message">Mensagem</label>
+            <textarea name="messge" id="message" cols="30" rows="10" placeholder="Mensagem..."></textarea>
 
-      <button onclick="submit">Enviar Mensagem</button>
-    </form>
-  </footer>
+            <button class="button" onclick="submit">Enviar Mensagem</button>
+        </form>
+    </footer>
 </body>
 
 </html>
