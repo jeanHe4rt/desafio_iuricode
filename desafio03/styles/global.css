@@ -1,0 +1,9 @@
+@import('./root.css');
+
+.button {
+  color: var(--fifth-color);
+}
+
+body {
+  background: var(--background);
+}
