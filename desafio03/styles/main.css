@@ -1,0 +1,84 @@
+@import url('./root.css');
+
+.header-1, .description {
+  line-height: 3rem;
+}
+
+.container-card {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-top: 150px;
+}
+
+
+
+.container-card .card {
+  width: 340px;
+  height: 423px;
+  justify-self: center;
+  align-self: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 68px;
+}
+
+.container-card .card .image-post {
+  width: 340px;
+  height: 222px;
+}
+
+.container-card  .card .image-post.red {
+  background-color: var(--card-color-red);
+}
+
+.container-card  .card .image-post.blue {
+  background-color: var(--card-color-blue-light);
+}
+
+.container-card  .card .image-post.pink {
+  background-color: var(--card-color-pink);
+}
+
+.container-card  .card .image-post.green {
+  background-color: var(--card-color-green);
+}
+
+.container-card  .card .image-post.yellow {
+  background-color: var(--card-color-yellow);
+}
+.container-card  .card .image-post.purple {
+  background-color: var(--card-color-purple);
+}
+
+.container-card .card .text {
+  max-width: 90%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.container-card .card .text .header-1 {
+  padding-top: 24px;
+}
+
+.container-card .card .text .description {
+  max-width: 90%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  word-break: break-word;
+}
+
+@media( max-width: 1024px) {
+  .container-card {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media( max-width: 425px) {
+  .container-card {
+    grid-template-columns: 1fr;
+    }
+}
+

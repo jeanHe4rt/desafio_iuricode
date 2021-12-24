@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #6c63ff;
+  --second-color: #d7d4ff;
+  --third-color: #2a2a2a;
+  --fourth-color: #555555;
+  --fifth-font-color: #ffffff;
+  --primary-font-color: #2b2b2b;
+  --background: #f9f9f9;
+  --card-color-red: #FF6363;
+  --card-color-blue-light: #63ECFF;
+  --card-color-pink: #F363FF;
+  --card-color-green: #63FF73;
+  --card-color-yellow: #FFDD63;
+  --card-color-purple: #6663FF;
+  
+  width: 100vw;
+  font-size: 62.5%;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Merriweather", serif; */
+}
+
+.header-1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
