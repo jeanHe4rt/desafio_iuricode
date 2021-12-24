@@ -1,0 +1,11 @@
+{
+  "name": "desafio_iuricode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeanAt2/desafio_iuricode.git",
+  "author": "jeanat2 <jean0king@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
