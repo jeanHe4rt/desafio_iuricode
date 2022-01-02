@@ -3,8 +3,10 @@
 .container {
   width: 100vw;
   height: 100vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-column: 1fr 1fr;
 }
 
 .container .content, .content-login {
@@ -76,6 +78,8 @@
   font-size: 1.6rem;
   line-height: 1.9rem;
   margin-top: 26px;
+  border: none;
+  border-radius: 5px;
 }
 .container .content-login .content-form .login-google {
   background-color: var(--third-color);
@@ -85,6 +89,8 @@
   line-height: 1.9rem;
   align-items: center;
   margin-top: 15px;
+  border: none;
+  border-radius: 5px;
 }
 
 .container .content-login .content-form .login-google img {
@@ -117,7 +123,24 @@
   width: 100%;
   text-align: center;
 }
+@media(max-width: 768px) {
+  .container {
+    display: flex;
+  }
+  .container .content {
+    display: none;
+  }
+}
+@media(max-width: 425px) {
+  .container {
+    display: flex;
+  }
+  .container .content {
+    display: none;
+    align-items: left;
+  }
 
+}
 
 
 
