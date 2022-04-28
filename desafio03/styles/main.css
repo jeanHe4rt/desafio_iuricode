@@ -76,6 +76,12 @@
     }
 }
 
+@media( max-width: 800px) {
+  .container-card {
+    grid-template-columns: 1fr;
+    }
+}
+
 @media( max-width: 425px) {
   .container-card {
     grid-template-columns: 1fr;

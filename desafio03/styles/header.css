@@ -56,9 +56,18 @@ header img {
   }
 }
 
+@media(max-width: 650px ){
+  #imageMain {
+    display:none;
+  }
+  .container {
+    height: 400px;
+  }
+}
+
 @media( max-width: 425px) {
   .container {
-    height: 800px;
+    height: 400px;
   }
   .container header {
     width: 100%;
