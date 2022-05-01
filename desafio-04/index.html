@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/aside.css" />
+    <title>Desafio-04 - Login</title>
+  </head>
+  <body>
+    <aside class="aside-image">
+      <img
+        src="assets/ImagePageInitial.svg"
+        alt="Imagem  inicial"
+        class="image-front"
+      />
+    </aside>
+    <main class="main">
+      <div class="content">
+        <div class="welcome">
+          <p class="top-title">Bem vindo de volta</p>
+          <h1 class="title">Faça login na sua conta</h1>
+        </div>
+        <section class="login">
+          <div class="input">
+            <span class="title-input"> E-mail</span>
+            <input
+              type="email"
+              name="email"
+              id=""
+              class="input"
+              placeholder="codelandia@gmail.com"
+            />
+          </div>
+          <div class="input">
+            <span class="title-input"> Senha</span>
+            <input
+              type="password"
+              name="password"
+              id=""
+              class="input"
+              placeholder="*********"
+            />
+          </div>
+          <footer class="login">
+            <div class="manter-senha">
+              <input type="checkbox" name="manterConta" id="" />
+              <span class="sub-text">Lembrar de mim</span>
+            </div>
+            <div class="link">
+              <a href="#">Esqueceu a sua senha?</a>
+            </div>
+          </footer>
+        </section>
+        <section class="buttons-group">
+          <button class="btnVerde">Entrar</button>
+          <button class="btnPreto google">
+            <img src="assets/iconeGoogle.svg" alt="G" />
+            <p>Ou faça o login com o Google</p>
+          </button>
+        </section>
+      </div>
+      <footer class="footer">
+        <p>Não tem uma conta?</p>
+        <a href="#">Cadastre-se</a>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+:root {
+  --cor-verde: #04C35C;
+  --cor-azul: #2B6CB0;
+  --cor-branco: #FFFFFF;
+  --cor-branco-claro: #F7FAFC;
+  --cor-cinza: #1A202C;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+}
