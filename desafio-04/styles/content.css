@@ -1,0 +1,45 @@
+.inputContent {
+  display: flex;  
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.inputContent .title-input {
+  margin-bottom: 10px;
+}
+
+.inputContent .input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid var(--cor-border);
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+.main .content .footer-login {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .content .footer-login  .manter-senha {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .content .buttons-group {  
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.main .content .buttons-group .google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.google  p {
+  margin-left: 10px;
+}

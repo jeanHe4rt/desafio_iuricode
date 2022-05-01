@@ -4,7 +4,44 @@
   --cor-branco: #FFFFFF;
   --cor-branco-claro: #F7FAFC;
   --cor-cinza: #1A202C;
+  --cor-border: #E8E8E8;
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
   font-family: 'Merriweather', serif;
+}
+
+.title{
+  font-family: 'Merriweather', serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+
+.title-input {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.sub-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: var(--cor-azul);
 }
