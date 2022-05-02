@@ -10,3 +10,9 @@
   display: flex;
   margin: 0 auto;
 }
+
+@media(max-width: 1050px) {
+  .aside-image {
+    display: none;
+  }
+}
